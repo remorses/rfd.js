@@ -35,6 +35,10 @@
     "node-addons": {
       "types": "./index.d.ts",
       "default": "./index.js"
+    },
+    "default": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
     }
   },
   "files": [
