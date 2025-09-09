@@ -11,6 +11,9 @@
     "nodejs-addon",
     "rust"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "contributors": [
     "Jacob Hummer <jcbhmr@outlook.com> (https://jcbhmr.me/)"
