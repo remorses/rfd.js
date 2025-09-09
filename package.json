@@ -1,8 +1,10 @@
 {
   "type": "commonjs",
   "name": "@xmorse/rfd",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "private": false,
+  "main": "index.js",
+  "types": "index.d.ts",
   "description": "📂 Lets you open native file picker and message boxes in JavaScript!",
   "keywords": [
     "bindings",
