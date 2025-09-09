@@ -1,7 +1,7 @@
 {
   "type": "commonjs",
   "name": "@xmorse/rfd",
-  "version": "2.2.3",
+  "version": "2.2.4",
   "private": false,
   "main": "index.js",
   "types": "index.d.ts",
@@ -24,9 +24,18 @@
   "repository": "github:bindrs/rfd",
   "bugs": "https://github.com/bindrs/rfd/issues",
   "exports": {
-    "deno": "./index.js",
-    "bun": "./index.js",
-    "node-addons": "./index.js"
+    "deno": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    },
+    "bun": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    },
+    "node-addons": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
   },
   "files": [
     "*.node",
