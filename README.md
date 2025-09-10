@@ -106,7 +106,6 @@ about the features and limitations inherited from the Rust API.
 File dialogs may not always appear focused or on top of other windows. This is a known limitation of the underlying `rfd` crate. For better focus behavior:
 
 - Use synchronous dialogs (`FileDialog`, `MessageDialog`) instead of async ones when possible
-- See [FOCUS_NOTES.md](./FOCUS_NOTES.md) for detailed information and platform-specific workarounds
 
 ## Development
 
