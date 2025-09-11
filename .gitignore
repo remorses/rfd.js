@@ -1,6 +1,6 @@
 # https://napi.rs/
 /*.node
-/index.js
+
 /index.d.ts
 
 #region https://github.com/github/gitignore/blob/main/Rust.gitignore
