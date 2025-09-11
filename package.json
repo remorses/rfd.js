@@ -1,7 +1,7 @@
 {
   "type": "commonjs",
   "name": "@xmorse/rfd",
-  "version": "2.2.6",
+  "version": "2.3.0",
   "private": false,
   "main": "index.js",
   "types": "index.d.ts",
@@ -24,31 +24,38 @@
   "repository": "github:bindrs/rfd",
   "bugs": "https://github.com/bindrs/rfd/issues",
   "exports": {
-    "deno": {
-      "types": "./index.d.ts",
-      "default": "./index.js"
+    ".": {
+      "deno": {
+        "types": "./index.d.ts",
+        "default": "./index.js"
+      },
+      "bun": {
+        "types": "./index.d.ts",
+        "default": "./index.js"
+      },
+      "node-addons": {
+        "types": "./index.d.ts",
+        "default": "./index.js"
+      },
+      "node": {
+        "types": "./index.d.ts",
+        "default": "./index.js"
+      },
+      "default": {
+        "types": "./index.d.ts",
+        "default": "./index.js"
+      }
     },
-    "bun": {
-      "types": "./index.d.ts",
-      "default": "./index.js"
-    },
-    "node-addons": {
-      "types": "./index.d.ts",
-      "default": "./index.js"
-    },
-    "node": {
-      "types": "./index.d.ts",
-      "default": "./index.js"
-    },
-    "default": {
-      "types": "./index.d.ts",
-      "default": "./index.js"
+    "./static": {
+      "types": "./index-static.ts",
+      "default": "./index-static.ts"
     }
   },
   "files": [
     "*.node",
     "index.d.ts",
-    "index.js"
+    "index.js",
+    "index-static.ts"
   ],
   "scripts": {
     "build": "napi build --platform",
